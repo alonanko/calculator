@@ -1,0 +1,78 @@
+.calculator {    
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    margin: 4 auto;
+    outline: 1px solid black;
+}
+
+.display{
+    display: flexbox;
+    width: 100%;
+    height: 33%;
+    outline: 1px solid black;
+}
+
+.calcButtons {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.numButtons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    outline: 1px solid black;
+}
+
+.opButtons {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    outline: 1px solid black;
+}
+
+.opColumn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.numRow{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.equals{
+    display: inline-block;
+    outline: 1px solid black;
+    width: 200%;
+}
+
+.op {
+    display: block;
+    outline: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.num {
+    display: inline-flex;
+    outline: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.soln {
+    text-align: right;
+}
+
+.exp {
+    text-align: right;
+}
